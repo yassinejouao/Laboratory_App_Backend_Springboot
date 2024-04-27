@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/yassinejouao/LabExpertFilRouge'
+                git branch: 'master', url: 'https://github.com/yassinejouao/Laboratory_App_Backend_Springboot'
             }
         }
 
